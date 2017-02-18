@@ -1,1 +1,2 @@
-EstadisticaWS
+# TrabajosEstadistoca
+Ejercicios de Estadistica
