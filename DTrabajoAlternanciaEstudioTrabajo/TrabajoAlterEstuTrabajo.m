@@ -13,8 +13,8 @@ clear
 load('Zutabe10.mat')
 display('resultados x')
 mean(Zutabe10) %media
-geomean(Zutabe10) %media geométrica
-harmmean(Zutabe10) %media harmónica
+geomean(Zutabe10) %media geomÃ©trica
+harmmean(Zutabe10) %media harmÃ³nica
 median(Zutabe10)  %mediana
 mad(Zutabe10)  %media absoluta
 bar(Zutabe10)  %diagrama de barras1
@@ -31,8 +31,8 @@ boxplot(Zutabe10) %Diagrama caja bigote
 load('Zutabe11.mat')
 display('resultados Y')
 mean(Zutabe11) %media
-geomean(Zutabe11) %media geométrica
-harmmean(Zutabe11) %media harmónica
+geomean(Zutabe11) %media geomÃ©trica
+harmmean(Zutabe11) %media harmÃ³nica
 median(Zutabe11)  %mediana
 mad(Zutabe11)  %media absoluta
 bar(Zutabe11)  %diagrama de barras1
@@ -45,5 +45,5 @@ prctile(Zutabe11,25) %Percentil 25
 prctile(Zutabe11,75) %Percentil 75
 boxplot(Zutabe11) %Diagrama caja bigote
 
-%Diagrama caja bigote para comparación
-boxplot([Zutabe10,Zutabe11],'Labels',{'Zutabe 10','Zutabe 11'}) 
+%Diagrama caja bigote para comparaciÃ³n
+boxplot([Zutabe10,Zutabe11],'Labels',{'Columna 10','Columna 11'}) 
